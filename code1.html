@@ -4,11 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn to win</title>
+    <title>Forms</title>
 </head>
-<body>
-   <h1>
-    The habit of winning is the most expensive character ever
-   </h1> 
+<body style="color:#800000; background-color:rgb(99, 191, 197)" >
+    <form  action="" method="post" id="">
+        <h1>Fill the required informations</h1>
+       <p>
+         Username:
+        <input type="text" name="Username"></p>
+       <p> Email: 
+        <input type="text" name="Email" </p> 
+       <p>
+       Password:
+       <input type="password" name="pass" 
+        
+       </p>
+       <p>
+        sex: 
+        <input type="dropbox"
+       </p>
+      <p> 
+       <input type="button" name="submit" value="submit"
+      </p>
+      
+      <p>What did you think of this gig?</p>
+<textarea name="comments" cols="20" rows="4">Enter
+your comments...</textarea>
+<p> Please select your favorite feild 
+    <br/>
+    <input type="radio" name="favorite" value="math"> Math <br/>
+    <input type="radio" name="favorite" value="physics"> Physics <br/>
+    <input type="radio" name="favorite" value="coding"> Coding <br/>
+</p>
+<p>Gender <br/>
+    <select name="gender">
+      <option></option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+
+    </select>
+
+</p>
+
+<p>Please select your favorite music service(s):
+    <br />
+    <input type="checkbox" name="service"
+    value="itunes" checked="checked" /> iTunes
+    <input type="checkbox" name="service"
+    value="lastfm" /> Last.fm
+    <input type="checkbox" name="service"
+    value="spotify" /> Spotify
+    </p
+<! -- this how dropbox works in html -->
+<p>what device do you listen music on</p>
+<select name="music">
+    <option value="radio"> radio</option>
+    <option value="TV"> Tv</option>
+    <option value="radio"> Mobile</option>
+    <option value="radio"> no of them</option>
+
+
+</select>
+
+
+<p>Do you play any of the following instruments?
+    (You can select more than one option by holding
+    down control on a PC or command key on a Mac
+    while selecting different options.)</p>
+    <select name="instruments" size="3"
+    multiple="multiple">
+    <option value="guitar" selected="selected">
+    Guitar</option>
+    <option value="drums">Drums</option>
+    <option value="keyboard"
+    selected="selected">Keyboard</option>
+    <option value="bass">Bass</option>
+    </select>
+<p><h1>Upload your file here</h1></p>
+<input type="file" name="file">  <br/>
+<input type="submit" value="upload">
+
+<p>Subscribe to our email list:</p>
+<input type="text" name="email" />
+<input type="submit" name="subscribe"
+value="Subscribe" />
+
+<p>Subscrbe to email list</p>
+<input type="email" name="email">
+<input type="image" src="bird.PNG" width="100" height="20">
+    </form>
+    <button><img src="images/add.gif" alt="add"
+        width="10" height="10" /> Add</button>
+        <br/>
+        <br/>
+        <label>Age: <input type="text" name="age" /></label>
+        <br/ >
+        Gender:
+        <input id="female" type="radio" name="gender"
+            value="f">
+        <label for="female">Female:</label>
+        <input id="male" type="radio" name="gender"
+        value="m">
+        <label for="male">Male:</label>
+        
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Email:<br />
+            <input type="text" name="email" /></label><br />
+            <label>Mobile:<br />
+            <input type="text" name="mobile" /></label><br />
+            <label>Telephone:<br />
+            <input type="text" name="telephone" /></label>
+            </fieldset>
+            <br/>
+            <br/>
+
+            <label for="username">Username:</label>
+<input type="text" name="username" required="required" /></title><br />
+<label for="password">Password:</label>
+<input type="passwrd" name="password" required="required" />
+<input type="submit" value="Submit" />
 </body>
 </html>
